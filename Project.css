@@ -1,0 +1,546 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+/** this is header **/
+body,html{
+    width: 100%;
+    overflow:auto;
+}
+
+.upperhade {
+    background-image: url("upperhade.jpg");
+    width: 100%; /* Fill the entire width of the viewport */
+    height: 150vh; /* Keep this as is if the height works fine for you */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+}
+
+i{
+ 
+position: relative;
+left: 80vh;
+font-size: 8vh;
+color: aliceblue;
+
+
+    
+}
+.shop{
+    display:flex;
+position: relative;
+top: 7vh; 
+   
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+   
+    font-size: 8vh;
+    position: relative;
+    left: 81vh;
+    
+}
+.text{
+  position: relative; top: 15vh;
+  
+}
+
+.text1 {  
+
+    color: white;
+    font-size:8vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+   
+   justify-content: center;
+}
+.text2{
+
+    color: white;
+    font-size: 8vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+   
+   justify-content: center;
+}
+.textT{
+    
+    color: white;
+    font-size: 3.8vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    position: relative;
+    top: 20vh;
+   
+   justify-content: center;
+}
+.search{
+display: flex;
+    margin-top: 4vh;
+    margin-left: -10vh;
+}
+.box{
+    font-size: 16px;
+border: 2px solid black;
+width: 60vh;
+height: 10vh;
+
+border-radius: 5vh;
+margin-left: 80vh;
+margin-top: 25vh;
+
+
+}
+
+button{
+
+position: relative;
+right: 21vh;
+
+
+background-color: black;
+color: white;
+
+border-radius: 5vh;
+height:8.5vh;
+width: 19vh;
+
+}
+.line{
+    color: rgb(253, 249, 249);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2.1vh;
+    margin-bottom: 100vh;
+    position: relative; bottom: 75vh; left: 64vh;
+   font-weight: lighter;
+    
+}
+
+.image{
+
+    background-image: url("image2.jpg");
+    
+    background-size: cover;
+    width: 80vh;
+    height: 80vh;
+
+    position: relative; bottom: 170vh; left: 60vh;
+}
+
+/** hero section ------------------------------------   **/
+
+
+.point{
+    border: 2px solid black;
+    font-size: 5vh;
+    text-indent:1vh;
+    width: 16vh;
+    height:5vh;
+    display:flex;
+    align-items:center;
+    position: relative; bottom: 170vh; left: 15vh;
+    color: black;
+    background-color:azure;
+    
+    
+
+}
+#mouse{
+
+font-size: 4vh;
+position: relative; left: 15vh;
+bottom: 149.5vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(12, 12, 12);
+border: 2px solid black;
+width: 16vh;
+height: 12vh;
+border-top:0px;
+background-color: floralwhite;
+
+}
+
+#text1{
+    font-size: 4vh;
+
+    position: relative; left: 14.3vh;
+    bottom: 146vh;
+    display: flex;
+   
+
+    color: rgb(24, 23, 23);
+   
+}
+pre{
+  font-size: 1.5rem;
+  font-weight: 700;
+letter-spacing: -.0.2rem;
+  line-height: 2rem;
+    margin-left: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.info{
+    color: black;
+    
+position: relative; bottom: 150vh;  left: 15vh;
+max-width: 400px; /* Adjust this value as needed */
+font-family: Arial, Helvetica, sans-serif;
+font-weight:lighter;
+font-size: 020px; /* Font size similar to the example */
+line-height: 1.5; /* Adjust line spacing */
+color: #333; /* Text color */
+text-align: left; /* Align text to the left */
+}
+
+
+/**            second part **/
+
+
+#mouse1{
+
+font-size: 5vh;
+position: relative; left: 15vh;
+bottom: 149.5vh;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(12, 12, 12);
+
+width: 16vh;
+height: 12vh;
+border-top:0px;
+
+
+}
+
+#text12{
+    font-size: 4vh;
+
+    position: relative; left: 14.3vh;
+    bottom: 146vh;
+    display: flex;
+   
+
+    color: rgb(24, 23, 23);
+   
+}
+#pre{
+  font-size: 1.5rem;
+  font-weight: 700;
+letter-spacing: -.0.2rem;
+  line-height: 2rem;
+    margin-left: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.info1{
+    color: black;
+    
+position: relative; bottom: 145vh;  left: 15vh;
+max-width: 400px; /* Adjust this value as needed */
+font-family: Arial, Helvetica, sans-serif;
+font-weight:lighter;
+font-size: 020px; /* Font size similar to the example */
+line-height: 1.5; /* Adjust line spacing */
+color: #333; /* Text color */
+text-align: left; /* Align text to the left */
+}
+
+/**   third part   **/
+
+
+
+#mouse2{
+
+    font-size: 5vh;
+    position: relative; left: 15vh;
+    bottom: 149.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    
+    width: 16vh;
+    height: 12vh;
+    border-top:0px;
+    
+    
+    }
+    
+    #text123{
+        font-size: 4vh;
+    
+        position: relative; left: 14.3vh;
+        bottom: 146vh;
+        display: flex;
+       
+    
+        color: rgb(24, 23, 23);
+       
+    }
+    #pre1{
+      font-size: 1.5rem;
+      font-weight: 700;
+    letter-spacing: -.0.2rem;
+      line-height: 2rem;
+        margin-left: 2vh;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    
+    .info2{
+        color: black;
+        
+    position: relative; bottom: 145vh;  left: 15vh;
+    max-width: 400px; /* Adjust this value as needed */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 020px; /* Font size similar to the example */
+    line-height: 1.5; /* Adjust line spacing */
+    color: #333; /* Text color */
+    text-align: left; /* Align text to the left */
+    }
+
+    /***       line           **/
+
+
+    
+    .Choose {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px; /* Add some margin to space things out */
+        padding: 10px; /* Add padding to create some inner space */
+    }
+
+    .box1 , .box2  , .box3{
+
+        margin-right: 15vh;
+    }
+
+    
+    
+    .footer{
+        display:flex;
+       flex-wrap: wrap;
+        margin-left: -5vh;
+        margin-right: -50vh;
+      height: 10vh;
+    
+      
+   
+    }
+
+    .img2{
+        display: flex;
+      
+        position: relative;
+        
+    }
+    
+
+    
+    .footer-img{
+        background-image: url(box1.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+        
+    }
+
+    .footer-img1{
+        background-image: url(box2.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+    }
+
+    .footer-img2{
+        background-image: url(box3.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+    }
+    .footer-img3{
+        background-image: url(box4.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+    }
+    .footer-img4{
+        background-image: url(box5.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+    }
+    .footer-img5{
+        background-image: url(box6.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+    }
+    .footer-img6{
+        background-image: url(box7.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+    }
+    .footer-img7{
+        background-image: url(box8.jpg);
+        height: 18vh;
+        background-size: 30vh;
+        background-repeat: no-repeat;
+        color: rgb(230, 14, 14);
+        width: 50vh;
+        position: relative;  right:130vh; top: -88vh;
+    }
+    .bd {
+        position: relative;
+        left: -290vh;
+        top: -100vh;
+        background-color: darkgray;
+        display: flex;
+        height: 0.1vh;
+        width: 60vh; /* Increase the value from 40vh to 60vh */
+        min-width: 200vh; /* Ensure minimum width is 60vh */
+        max-width: 100vh; /* Ensure maximum width is 60vh */
+    }
+
+    .bd2 {
+        position: relative;
+        right: 490vh;
+        top: -50vh;
+        background-color: darkgray;
+        display: flex;
+        height: 0.1vh;
+        width: 60vh; /* Increase the value from 40vh to 60vh */
+        min-width: 200vh; /* Ensure minimum width is 60vh */
+        max-width: 100vh; /* Ensure maximum width is 60vh */
+    }
+
+    .lasttext {
+        color: black;
+        text-indent: 10vh;
+        font-size: 3.9vh;
+        display: inline-block; /* Changed from 'flex' to 'inline-block' */
+        position: relative;
+        justify-content: center;
+        left: -680vh;
+        top: -30vh;
+        white-space: nowrap; /* Prevents the text from breaking into multiple lines */
+    }
+    
+
+    .lasttext2{
+        color: black;
+        
+        font-size: 3.5vh;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        display: inline-block; /* Changed from 'flex' to 'inline-block' */
+        position: relative;
+        justify-content: center;
+        left: -800vh;
+        top: -19vh;
+        white-space: nowrap; /* Prevents the text from breaking into multiple lines */
+
+    }
+
+    .button2{
+
+        
+position: relative;
+right: 21vh;
+left: -848vh;
+top: -4vh;
+font-size: 2.5vh;
+font-weight: bolder;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+background-color: black;
+color: white;
+
+border-radius: 5vh;
+height:9.8vh;
+width: 25vh;
+    }
+
+   .a1{
+    text-decoration: underline;
+        position: relative;
+        white-space: nowrap;
+        display: inline-block;
+right: 21vh;
+left: -870vh;
+top: 35vh;
+font-size: 2.5vh;
+font-weight: bolder;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+color: rgb(15, 15, 15);
+
+
+
+    }
+    
+    .a2{
+        text-decoration: underline;
+        position: relative;
+        white-space: nowrap;
+        display: inline-block;
+right: 21vh;
+left: -830vh;
+top: 32vh;
+font-size: 2.5vh;
+font-weight: bolder;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+color: rgb(15, 15, 15);
+
+
+
+    }
+    .a3{
+        text-decoration: underline;
+        position: relative;
+        white-space: nowrap;
+        display: inline-block;
+right: 21vh;
+left: -800vh;
+top: 29vh;
+font-size: 2.5vh;
+font-weight: bolder;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+color: rgb(15, 15, 15);
+
+
+    }
